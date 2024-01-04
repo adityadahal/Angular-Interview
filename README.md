@@ -24,4 +24,9 @@ Note - Variable initializations are not hoisted, only variable declarations are 
 ### Difference between “ == “ and “ === “ operators.
 Both are <b>comparison operators</b>. The difference between both the operators is that <b>“==” is used to compare values</b> whereas, <b>“ === “ is used to compare both values and types</b>.
 
+### Const Var and let
+- const : Block Scoped. It is final keyword. Cannot redeclare after declaring it once.
+- let:  Block Scoped. let are only visible in the block declared  (inside curly braces {} note: Includes if else statement, loop and other block statements).
+- var: Function Scoped. Only visible in function they are declared. var is not recommended to use these days.
+
      
