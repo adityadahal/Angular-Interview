@@ -7,7 +7,7 @@
      - Boolean : Logical Entity. It has two values <b>true</b> or <b>false</b>.
      - Undefined: When variable is declared but not assigned any values. It has value of undefined and also it's type is undefined.
      - Null: Represents invalid or non-existent value.
-       note: Type of Primitive data type can be checked by using "type of" method.
+       note: Type of Primitive data type can be checked by using "type of" method. <br/>
        ![image](https://github.com/adityadahal/Practice-Notes/assets/107999400/972bbbad-8264-403c-86f2-76a55725b0ce) <br/>
 
   2. Non-Primitive Data Type
