@@ -28,5 +28,14 @@ Both are <b>comparison operators</b>. The difference between both the operators 
 - const : Block Scoped. It is final keyword. Cannot redeclare after declaring it once.
 - let:  Block Scoped. let are only visible in the block declared  (inside curly braces {} note: Includes if else statement, loop and other block statements).
 - var: Function Scoped. Only visible in function they are declared. var is not recommended to use these days.
+  note: Hoisting is possible in all 3 but let and const are hoisted but not initialized so accessing those returns Reference Error. While as accessing var returns undefined
 
-     
+###  Implicit Type Coercion
+It is automatic conversion of value from one data type to another. for eg: <br/>
+![image](https://github.com/adityadahal/JS-Practise-Notes/assets/107999400/5423c93c-9505-4387-890b-7e4544c226cb) <br/>
+
+### NaN property in JavaScript
+NaN property represents the “Not-a-Number” value. It indicates a value that is not a legal number. To check if a value is NaN, we use the isNaN() function, <br/>
+![image](https://github.com/adityadahal/JS-Practise-Notes/assets/107999400/367cb086-f010-42ad-9657-41b418454215) <br/>
+
+
