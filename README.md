@@ -51,6 +51,14 @@ Functions that operate on other functions, either by taking them as arguments or
 ### 9. this keyword
 The this keyword refers to the current object in a method or constructor. The most common use of the this keyword is to eliminate the confusion between class attributes and parameters with the same name
 
+### 10. Closures in Javascript
+Closures are an ability of a function to remember the variables and functions that are declared in its outer scope. It is just like getter in Java. <br/>
+![image](https://github.com/adityadahal/JS-Practise-Notes/assets/107999400/43460a4e-a157-46d6-bb4b-48d4f89f3274) <br/>
+
+### 11. Callbacks 
+A callback is a function that will be executed after another function gets executed(completion of another function). Any function that is passed as an argument to another function so that it can be executed in that other function is called as a callback function.
+
+
 
    
 
