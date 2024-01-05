@@ -45,6 +45,12 @@ In JavaScript, primitive data types are passed by value and non-primitive data t
 From the above example, we can see that primitive data types when passed to another variable, are passed by value. Instead of just assigning the same address to another variable, the value is passed and new space of memory is created. <br/>
 <b>Non-Primitive Data Type</b> <br/>
 ![image](https://github.com/adityadahal/JS-Practise-Notes/assets/107999400/18b7a094-aef2-495c-80d6-f0d8c3b52512) <br/>
+### 8. Higher Order Functions 
+Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher-order functions. <br/>
+
+### 9. this keyword
+The this keyword refers to the current object in a method or constructor. The most common use of the this keyword is to eliminate the confusion between class attributes and parameters with the same name
+
 
    
 
