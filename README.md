@@ -60,17 +60,20 @@ A callback is a function that will be executed after another function gets execu
 
 ## Notes on NGRX
  NgRx is a framework for building Reactive applications in angular. It also helps in maintaining the state throughout the application. <b>Reactive Programming</b> is way of programming way to handle asynchronous data stream and responding to the changes immediately. For example while watching cricket when batsman hits 6 we should not wait until the announcer announces it, as we are watching the cricketer on Tv.
- <br/>
+ 
 <b>Store</b>
  - The central piece of ngrx is the store, which holds the state of the entire application in a single, immutable object.
- - The state is read-only and any changes are made through actions. <br/>
+ - The state is read-only and any changes are made through actions.
+   
 <b>Actions</b>
- - It is plain javascript object that represent intention to change the state.
- - It must have type property that describes type of Action being performed, can also carry Additional data as payload.
- - Include the event (changes triggered) dispatched from Components. <br/>
+- It is plain javascript object that represent intention to change the state.
+- It must have type property that describes type of Action being performed, can also carry Additional data as payload.
+- Include the event (changes triggered) dispatched from Components.
+  
 <b>Reducers</b>
    - It is pure function used to handle the state change in response to the action.
-   - Take current state and action as a parameter and return a new state. <br/>
+   - Take current state and action as a parameter and return a new state.\
+
 <b>Selector</b>
   - Selector retrives the pieces of state from store.
   - They helps in encapsulating the logic for extracting data from store.
