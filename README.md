@@ -72,11 +72,16 @@ A callback is a function that will be executed after another function gets execu
   
 <b>Reducers</b>
    - It is pure function used to handle the state change in response to the action.
-   - Take current state and action as a parameter and return a new state.\
+   - Take current state and action as a parameter and return a new state.
 
 <b>Selector</b>
   - Selector retrives the pieces of state from store.
   - They helps in encapsulating the logic for extracting data from store.
+
+<b>Component</b>
+-  Selector are used in component to get the data.
+
+
 
 
 
