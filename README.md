@@ -81,6 +81,9 @@ A callback is a function that will be executed after another function gets execu
 <b>Component</b>
 -  Selector are used in component to get the data.
 
+### Typescript
+Typescript is strongly typed superset of Javascript that add optional types, classes, interface and many more features and compiles to plain JS(because browser can only understand JS) 
+
 
 
 
