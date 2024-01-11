@@ -95,6 +95,15 @@ Directives are the angular classes that can add new behaviour to the element in 
 </ul>
 <p>note: Custom Directive is made using @Directive decorator</p>
 
+### Decorators
+<p>Decorator are special type of declaration that can be attached to class, method, properties or parameter allowing to configure or enhance their behaviour</p>
+<ul>
+  <li>Class decorator such as <b>@Component</b> and <b>@NgModule</b>  </li>
+  <li>Property decorators for properties inside classes, such as <b>@Input</b> and <b>@Output</b>  </li>
+  <li>Method decorators for methods inside classes, such as <b>@HostListener</b>  </li>
+  <li>Parameter decorators for parameters inside class constructors, such as <b>@Inject</b> </li>
+</ul>
+
 
 
 
