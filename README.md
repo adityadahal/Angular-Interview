@@ -94,6 +94,9 @@ Directives are the angular classes that can add new behaviour to the element in 
   <li>Attribute Directive: It is used to make the changes in the behaviour or apperance of a DOM. For eg: ngStyle and ngClass</li>
 </ul>
 <p>note: Custom Directive is made using @Directive decorator</p>
+<p>Component used to create UI widget. Directive is used to add behaviour to the exisiting DOM element.</p>
+<p>Only one Component is present per one DOM. Many Directive can be used per DOM</p>
+<p>Component contains Template. Directive doesn't contain Template</p>
 
 ### Decorators
 <p>Decorator are special type of declaration that can be attached to class, method, properties or parameter allowing to configure or enhance their behaviour</p>
