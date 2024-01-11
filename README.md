@@ -83,6 +83,7 @@ A callback is a function that will be executed after another function gets execu
 
 ### Typescript
 Typescript is strongly typed superset of Javascript that add optional types, classes, interface and many more features and compiles to plain JS(because browser can only understand JS) 
+<p>Variable must be declared with its type. <b>If you try to assign value of one type with variable of another type, Typescript will generate a compilation error</b></p>
 
 
 
