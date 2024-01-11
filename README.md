@@ -85,6 +85,16 @@ A callback is a function that will be executed after another function gets execu
 Typescript is strongly typed superset of Javascript that add optional types, classes, interface and many more features and compiles to plain JS(because browser can only understand JS) 
 <p>Variable must be declared with its type. <b>If you try to assign value of one type with variable of another type, Typescript will generate a compilation error</b></p>
 
+### Directives
+Directives are the angular classes that can add new behaviour to the element in the template or modify the existing behaviour.
+<p>Directive in angular can be categorized into following types</p>
+<ul>
+  <li>Component Directive: Components are directive that contains a template which is rendered in the place of a Component (Component = Directive + Template)</li>
+  <li>Structural Directive: It is used to make the changes in the structure of a DOM. Element can be added or removed. hence, changing structure of a DOM. for eg: *ngFor , *ngIf etc</li>
+  <li>Attribute Directive: It is used to make the changes in the behaviour or apperance of a DOM. For eg: ngStyle and ngClass</li>
+</ul>
+<p>note: Custom Directive is made using @Directive decorator</p>
+
 
 
 
