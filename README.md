@@ -107,6 +107,27 @@ Directives are the angular classes that can add new behaviour to the element in 
   <li>Parameter decorators for parameters inside class constructors, such as <b>@Inject</b> </li>
 </ul>
 
+### angular.json
+It is a configuration file used by Angular CLI to manage various settings for Angular Project. It is a JSON file that defines structure and configuration of angular application.
+
+### Angular CLI
+It is a command line tool for creating, managing and building Angular applications. helps in following best practices while developing an angular application. It is built on top of Node js and npm(Node Package Manager)
+
+### NPM 
+It is default package manager for Node js. npm is used for managing and distributing JS packages.
+<p>It is used for </p>
+<ul>
+  <li>Package installation</li>
+  <li>Dependency Management</li>
+  <li>Scripting</li>
+</ul>
+
+#### Package.json and Package-lock.json
+<p>Package json contains information of Project such as name, version, scripts dependency etc.</p>
+<p> Package-lock.json contain exact version of dependency installed including sub-dependencies. It is automatically created during npm install</p>
+<p>note: 
+In the context of Node.js and npm (Node Package Manager), dependencies refer to external packages or libraries that a Node.js project relies on to function correctly. These external packages are typically hosted on the npm registry, and npm is used to manage and install them. Dependencies are declared in the package.json file of a Node.js project.</p>
+
 
 
 
