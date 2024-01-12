@@ -150,7 +150,9 @@ Angular application does have lifecycle of a component from its creation or init
   <li>ngOnchange: It is called when the @Input property of parent is changed</li>
   <li>ngOnit: Called at initialization of the component</li>
   <li>ngDoCheck: Custom Change detection </li>
-  <li>ngAfterViewInit: </li>
+  <li>ngAfterViewInit:Called in response after Angular initializes the component's view and child view. </li>
+  <li>ngAfterViewChecked: Called After Angular checks component and child view</li>
+  <li>ngDestroy: Cleanup phase when Angular destroys the component.</li>
 </ul>
 
 ### Data Binding
