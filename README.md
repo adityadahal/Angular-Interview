@@ -100,6 +100,7 @@ Directives are the angular classes that can add new behaviour to the element in 
 
 ### Decorators
 <p>Decorator are special type of declaration that can be attached to class, method, properties or parameter allowing to configure or enhance their behaviour</p>
+<p>Angular Decorator stores metadata about class, method and properties</p>
 <ul>
   <li>Class decorator such as <b>@Component</b> and <b>@NgModule</b>  </li>
   <li>Property decorators for properties inside classes, such as <b>@Input</b> and <b>@Output</b>  </li>
@@ -127,6 +128,46 @@ It is default package manager for Node js. npm is used for managing and distribu
 <p> Package-lock.json contain exact version of dependency installed including sub-dependencies. It is automatically created during npm install</p>
 <p>note: 
 In the context of Node.js and npm (Node Package Manager), dependencies refer to external packages or libraries that a Node.js project relies on to function correctly. These external packages are typically hosted on the npm registry, and npm is used to manage and install them. Dependencies are declared in the package.json file of a Node.js project.</p>
+
+### Template 
+Template is html view where data can be displayed by binding with Angular's Component. 
+<p>Template can be declared inline inside component's template property or either link of seprate html file can be provided inside Component decorator's templateUrl</p>
+
+### Module
+Module are the ones used to group related component, directives and services. Application is divided into seperate module to seperate the functionality of the application.
+<p>Module is declared with <b>@ngModule</b> Declararor </p> 
+<p>MetaData for NgModule Decorator are as follows</p>
+<ul>
+  <li>import: Import is used to import other dependent modules</li>
+  <li>declaration: It is used to define the Component in the respective module</li>
+  <li>bootstrap: Tells angular which component to bootstrap in application</li>
+  <li>provider: used to configure injectable objects</li>
+</ul>
+
+### Life-cycle of Angular
+Angular application does have lifecycle of a component from its creation or initialization to the component destruction.
+<ul>
+  <li>ngOnchange: It is called when the @Input property of parent is changed</li>
+  <li>ngOnit: Called at initialization of the component</li>
+  <li>ngDoCheck: Custom Change detection </li>
+  <li>ngAfterViewInit: </li>
+</ul>
+
+### Data Binding
+It helps in smooth communication between the Component and DOM (Html Template).
+<p>There are three forms of data binding</p>
+<p>1. <b>From Component to the DOM</b></p>
+<p>* Interpolation: {{value}} Adds the value of property from component</p>
+<p>** Property Binding:  [property]=”value”: The value is passed from the component to the specified property or simple HTML attribute</p>
+
+<p>2. <b>From DOM to the component</b></p>
+<p>Event Binding: (event)=”function”: When the specific DOM event happens. for eg: Click Event</p>
+
+<p>3. <b>Two way Data binding</b></p>
+<p> Two-way data binding allows to have the data flow both ways.  for eg: [(ngModel)]</p>
+
+
+
 
 
 
