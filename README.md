@@ -168,6 +168,14 @@ It helps in smooth communication between the Component and DOM (Html Template).
 <p>3. <b>Two way Data binding</b></p>
 <p> Two-way data binding allows to have the data flow both ways.  for eg: [(ngModel)]</p>
 
+### Pipes
+pipes are function which accept an input value and return transformed value.
+
+### Chaining Pipes
+The chaning pipes use multiple pipes on input. for eg: - {{result | date | uppercase}}
+
+
+
 
 
 
