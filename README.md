@@ -174,7 +174,15 @@ pipes are function which accept an input value and return transformed value.
 ### Chaining Pipes
 The chaning pipes use multiple pipes on input. for eg: - {{result | date | uppercase}}
 
+### Service
+A service is a logical entity, a typescript class and a resuable code which can be used in multiple components which can be implemented with the help of Dependency injection.
 
+### Dependency Injection
+Dependency injection is a technique for creating and delivering some part of application to another part of application which requires them.
+
+
+### Provider
+provider is an object inside decorator which inform Angular that particular service is available for injecting inside the component
 
 
 
