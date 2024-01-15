@@ -216,6 +216,14 @@ Observable is representation of data stream or values that can be emitted over t
 Subject can be special type of observable that can act both as producer and consumer of values. 
 <p>It allows you to multicast, multiple subscriber can subscribe to it, when Subject emits a new value all subscribed observers will receive that value.</p>
 
+### Observer
+Observer is an object that listen to the values emitted by Observable. It is consumer of Observable. 
+<p>Observer has three callback functions: </p>
+<ul>
+  <li>next: it is called when observable emits a new value</li>
+   <li>error: it is called when error occurs during execution of observable</li>
+   <li>complete: it is called when observable has completed emitting values</li>
+</ul>
 
 
 
