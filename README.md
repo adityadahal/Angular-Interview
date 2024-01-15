@@ -184,6 +184,18 @@ Dependency injection is a technique for creating and delivering some part of app
 ### Provider
 provider is an object inside decorator which inform Angular that particular service is available for injecting inside the component
 
+### Synchronous Programming
+As Js is single threaded task are executed one after another, Each task must be completed before starting another task
+
+### Asynchronous Programming
+In Asycnhronous programming tasks can be started, program can continue to execute other task without waiting for the completion of other task.
+
+### async and await 
+async keyword is used to define asynchronous functions and await keyword is used inside the function to wait until the promise get resolved or rejected. <br/>
+async will always return a promise.
+
+
+
 
 
 
