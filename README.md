@@ -205,6 +205,14 @@ Rxjs is library for reactive programming using Observable. It provides powerful 
 <p>Operators is used to transform or manipulate the data stream</p>
 <p></p>
 
+### Observable
+Observable is representation of data stream or values that can be emitted over time. event can be data or notifications.
+<p>useful for handling asynchronous operations</p>
+<p>Can be helpful to work with data that arrive over time such as response from the server</p>
+<p>Observer subscribe to observable to receive notifications</p>
+<p>It is Lazy, nothing will happen until someone subscribes to it</p>
+
+
 
 
 
