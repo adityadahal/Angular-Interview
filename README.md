@@ -212,6 +212,10 @@ Observable is representation of data stream or values that can be emitted over t
 <p>Observer subscribe to observable to receive notifications</p>
 <p>It is Lazy, nothing will happen until someone subscribes to it</p>
 
+### Subject
+Subject can be special type of observable that can act both as producer and consumer of values. 
+<p>It allows you to multicast, multiple subscriber can subscribe to it, when Subject emits a new value all subscribed observers will receive that value.</p>
+
 
 
 
