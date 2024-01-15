@@ -194,6 +194,17 @@ In Asycnhronous programming tasks can be started, program can continue to execut
 async keyword is used to define asynchronous functions and await keyword is used inside the function to wait until the promise get resolved or rejected. <br/>
 async will always return a promise.
 
+### Reactive Programming
+It is programming practice to handle asynchronous data and react to the changes immediately.
+
+### Rxjs
+Rxjs is library for reactive programming using Observable. It provides powerful tool for handling asynchronous operation and manage flow of data overtime.
+<p>Observable represents the stream of data</p>
+<p>Stream represents collection of inifinite data</p>
+<p>Observer subscribe to the Observable and react to emmited values</p>
+<p>Operators is used to transform or manipulate the data stream</p>
+<p></p>
+
 
 
 
