@@ -244,6 +244,26 @@ Lazy loading refers to loading module only when they are actually needed, rather
 <p>Helps in reducing initial loading time of application</p>
 <p>Angular supports lazy loading through its route, loadChildren property can be used to specify path to the module that should be loaded lazily.</p>
 
+### Passing the data in angular
+In angular you can transfer the data. Use 'Input' decorator to pass data from Parent to Child and 'Output' decorator to pass data from child to parent.
+
+### Parent to Child
+// parent.component.ts
+<br/>
+![image](https://github.com/adityadahal/JS-Practise-Notes/assets/107999400/8bc2d3d8-127c-4b2e-8b30-130782fd6c3c) <br/>
+
+// child.component.ts <br/>
+![image](https://github.com/adityadahal/JS-Practise-Notes/assets/107999400/2ded2764-6650-4987-a8ff-ebe7d7aefe37) <br/>
+
+### Child to Parent
+We use @Output decorator and event emitter to emit the child property to parent property. <br/>
+![image](https://github.com/adityadahal/JS-Practise-Notes/assets/107999400/a3109b71-e0fe-41ab-b43e-6ecc5bd20fe1) <br/>
+![image](https://github.com/adityadahal/JS-Practise-Notes/assets/107999400/8dbba8cd-aa7f-47a3-8b73-94be6903c112)
+
+
+
+
+
 
 
 
