@@ -287,6 +287,12 @@ It is part of HttpClientModule which inspect and transform Http request from app
   <li>Can be used to handle error globally, for eg: redirect user to login if a page returns 401</li>
 </ul>
 
+### Jasmine
+Jasmine is a JS framework for testing javascript code. It is used for unit testing to ensure all the individual component works as expected.
+
+### Karma
+Karma is a test runner for Javascript which is used to automate the execution of script across the browser and environment
+
 
 
 
