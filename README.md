@@ -289,6 +289,17 @@ It is part of HttpClientModule which inspect and transform Http request from app
 
 ### Jasmine
 Jasmine is a JS framework for testing javascript code. It is used for unit testing to ensure all the individual component works as expected.
+<br/> It includes:
+<ul>
+  <li>'describe' for defining test suites</li>
+  <li>'it' for defining multiple test cases</li>
+</ul>
+<p>inside 'it' we have to write test cases in a fomat which is 3A pattern. They are</p>
+<ul>
+  <li>Arrange: provide mock data</li>
+  <li>Act: main functionality</li>
+  <li>Assert: expected result</li>
+</ul>
 
 ### Karma
 Karma is a test runner for Javascript which is used to automate the execution of script across the browser and environment
