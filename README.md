@@ -226,6 +226,9 @@ Observer is an object that listen to the values emitted by Observable. It is con
    <li>complete: it is called when observable has completed emitting values</li>
 </ul>
 
+### Operators
+Operators are the function that act on observable that enable transformation and manipulation of data stream.
+
 ### Comparing Observable vs Promise
 <ul>
   <li>Observable emits multiple value over time where as promise emit single value at a time</li>
@@ -235,6 +238,11 @@ Observer is an object that listen to the values emitted by Observable. It is con
 
 ### HttpClient
 Http client is built-in-service available in angular class which performs Http request.
+
+### Lazy Loading
+Lazy loading refers to loading module only when they are actually needed, rather than loading all modules when the application starts,
+<p>Helps in reducing initial loading time of application</p>
+<p>Angular supports lazy loading through its route, loadChildren property can be used to specify path to the module that should be loaded lazily.</p>
 
 
 
