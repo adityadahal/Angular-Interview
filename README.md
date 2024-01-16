@@ -276,6 +276,10 @@ Reactive form is an approach in angular framework for handling and managing form
 It is model-driven form(two way binding) where logic, validations are written in template of the Component. Complex form should not be made with template driven form.
 <p>ngModel is keypart of template driven form for two way data binding</p>
 
+### FormBuilder 
+Formbuilder is a service that helps in easy way of creating instance of Formcontrol and FormGroup. It is a part of angular/form module.
+<p>It reduces the boilerplate code while building complex reactive form</p>
+
 
 
 
