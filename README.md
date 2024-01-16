@@ -280,6 +280,13 @@ It is model-driven form(two way binding) where logic, validations are written in
 Formbuilder is a service that helps in easy way of creating instance of Formcontrol and FormGroup. It is a part of angular/form module.
 <p>It reduces the boilerplate code while building complex reactive form</p>
 
+### Http Interceptors
+It is part of HttpClientModule which inspect and transform Http request from application to server and vice versa
+<ul>
+  <li>when http request is made, interceptor(Developers) can intercept the request before it is send to server, can modify request add headers</li>
+  <li>Can be used to handle error globally, for eg: redirect user to login if a page returns 401</li>
+</ul>
+
 
 
 
