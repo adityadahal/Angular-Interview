@@ -1,4 +1,4 @@
-# JS Practice Notes
+# Basic JS Questions
 ### 1. Data Types 
   1. Primitive Data Type
      - String: Represent series of Character(ch). It can be represented using single or double quotes.
@@ -58,7 +58,11 @@ Closures are an ability of a function to remember the variables and functions th
 ### 11. Callbacks 
 A callback is a function that will be executed after another function gets executed(completion of another function). Any function that is passed as an argument to another function so that it can be executed in that other function is called as a callback function.
 
-## Notes on NGRX
+<hr/>
+
+## Angular Core
+
+### NgRx
  NgRx is a framework for building Reactive applications in angular. It also helps in maintaining the state throughout the application. <b>Reactive Programming</b> is way of programming way to handle asynchronous data stream and responding to the changes immediately. For example while watching cricket when batsman hits 6 we should not wait until the announcer announces it, as we are watching the cricketer on Tv.
  
 <b>Store</b>
