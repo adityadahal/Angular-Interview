@@ -198,6 +198,7 @@ async will always return a promise.
 It is programming practice to handle asynchronous data and react to the changes immediately.
 
 ### Rxjs
+<p>Rxjs is a js library that helps us to work with asynchronous data stream with the help of observable</p>
 Rxjs is library for reactive programming using Observable. It provides powerful tool for handling asynchronous operation and manage flow of data overtime.
 <p>Observable represents the stream of data</p>
 <p>Stream represents collection of inifinite data</p>
@@ -224,6 +225,18 @@ Observer is an object that listen to the values emitted by Observable. It is con
    <li>error: it is called when error occurs during execution of observable</li>
    <li>complete: it is called when observable has completed emitting values</li>
 </ul>
+
+### Comparing Observable vs Promise
+<ul>
+  <li>Observable emits multiple value over time where as promise emit single value at a time</li>
+  <li>Observable are not executed until we subscribe it where as promise are executed immediately after creation</li>
+  <li>It is cancellable using unsubsribe method where as promise are not cancellable</li>
+</ul>
+
+### HttpClient
+Http client is built-in-service available in angular class which performs Http request.
+
+
 
 
 
