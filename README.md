@@ -272,6 +272,11 @@ Reactive form is an approach in angular framework for handling and managing form
   <li> <b>Form Control: </b> Represent array of form control, used for dynamic list of control </li>
 </ul>
 
+### Template Driven form
+It is model-driven form(two way binding) where logic, validations are written in template of the Component. Complex form should not be made with template driven form.
+<p>ngModel is keypart of template driven form for two way data binding</p>
+
+
 
 
 
