@@ -264,6 +264,14 @@ We use @Output decorator and event emitter to emit the child property to parent 
 ![image](https://github.com/adityadahal/JS-Practise-Notes/assets/107999400/a3109b71-e0fe-41ab-b43e-6ecc5bd20fe1) <br/>
 ![image](https://github.com/adityadahal/JS-Practise-Notes/assets/107999400/8dbba8cd-aa7f-47a3-8b73-94be6903c112)
 
+### Reactive Forms
+Reactive form is an approach in angular framework for handling and managing form in reactive way, Uses Formbuilder service to create formcontrol, groups and array.
+<ul>
+  <li> <b>Form Control: </b> Represent individual form control, eg: Input fields. It manage state and validation of control </li>
+  <li> <b>Form Control: </b> Represent group of form control </li>
+  <li> <b>Form Control: </b> Represent array of form control, used for dynamic list of control </li>
+</ul>
+
 
 
 
