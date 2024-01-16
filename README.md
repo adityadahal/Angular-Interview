@@ -287,6 +287,13 @@ It is part of HttpClientModule which inspect and transform Http request from app
   <li>Can be used to handle error globally, for eg: redirect user to login if a page returns 401</li>
 </ul>
 
+### Unit Testing
+Unit testing is a software testing method in which individual unit/component are tested to ensure they function as expected.
+
+### Integration Testing
+Individual component are combined and tested as a group. It detect fault in interaction of integrated components such as dataflow
+
+
 ### Jasmine
 Jasmine is a JS framework for testing javascript code. It is used for unit testing to ensure all the individual component works as expected.
 <br/> It includes:
