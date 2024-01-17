@@ -243,6 +243,17 @@ Operators are the function that act on observable that enable transformation and
 ### HttpClient
 Http client is built-in-service available in angular class which performs Http request.
 
+### Http Interceptors
+It is part of HttpClientModule which inspect and transform Http request from application to server and vice versa
+<ul>
+  <li>when http request is made, interceptor(Developers) can intercept the request before it is send to server, can modify request add headers</li>
+  <li>Can be used to handle error globally, for eg: redirect user to login if a page returns 401</li>
+</ul>
+
+### Auth Guard
+Authguard is mechanism used in angular to control the access of certain route based on authentication of the user. Only authenticated user can navigate to some part of the application. 
+<p>canActivate guard is commonly used to check the guard of an Application.</p>
+
 ### Lazy Loading
 Lazy loading refers to loading module only when they are actually needed, rather than loading all modules when the application starts,
 <p>Helps in reducing initial loading time of application</p>
@@ -280,12 +291,7 @@ It is model-driven form(two way binding) where logic, validations are written in
 Formbuilder is a service that helps in easy way of creating instance of Formcontrol and FormGroup. It is a part of angular/form module.
 <p>It reduces the boilerplate code while building complex reactive form</p>
 
-### Http Interceptors
-It is part of HttpClientModule which inspect and transform Http request from application to server and vice versa
-<ul>
-  <li>when http request is made, interceptor(Developers) can intercept the request before it is send to server, can modify request add headers</li>
-  <li>Can be used to handle error globally, for eg: redirect user to login if a page returns 401</li>
-</ul>
+
 
 ### Unit Testing
 Unit testing is a software testing method in which individual unit/component are tested to ensure they function as expected.
