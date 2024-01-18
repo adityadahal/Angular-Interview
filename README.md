@@ -1,4 +1,4 @@
-# Basic JS Questions
+# JS Questions
 ### 1. Data Types 
   1. Primitive Data Type
      - String: Represent series of Character(ch). It can be represented using single or double quotes.
